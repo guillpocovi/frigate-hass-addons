@@ -33,6 +33,7 @@ tmpfs: true
 full_access: false
 environment:
   CONFIG_FILE: /config/frigate.yml
+  LIBVA_DRIVER_NAME: radeonsi
 options: {}
 schema: {}
 services:
